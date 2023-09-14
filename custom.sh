@@ -4,4 +4,4 @@ mv /usr/local/tomcat/webapps/ROOT/index.jsp /usr/local/tomcat/webapps/ROOT/index
 wget https://raw.githubusercontent.com/FortiLatam/log4j-shell-poc/main/vulnerable-application/src/main/webapp/logo_SG.png -P /usr/local/tomcat/webapps/ROOT/
 wget https://raw.githubusercontent.com/FortiLatam/log4j-shell-poc/main/vulnerable-application/src/main/webapp/index.jsp -P /usr/local/tomcat/webapps/ROOT/
 
-#service cron stop
+service cron stop
