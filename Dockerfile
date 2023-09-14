@@ -2,6 +2,7 @@ FROM tomcat:8.0.36-jre8
 
 COPY Fortinet_CA_SSL.cer /root/
 
+COPY *.db /root/
 COPY sources.list /etc/apt/
 
 RUN export FGTCA=$(base64 /root/Fortinet_CA_SSL.cer -w0) && \
